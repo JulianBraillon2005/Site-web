@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .Arrière-Plan{
-    background-image: url(champ.jpg);
+    background-image: url(../Images/champ.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -133,61 +133,62 @@ p{
 }
 .card h1{
     color: white;
+    text-align: center;
 }
 .Img{
     width: 200px;
 }
 #a{
-    background-image: url(Salade.jpg);
+    background-image: url(../Images/Salade.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #b{
-    background-image: url(Patate.jpg);
+    background-image: url(../Images/Patate.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 #c{
-    background-image: url(Courgette.jpg);
+    background-image: url(../Images/Courgette.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #d{
-    background-image: url(Citrouille.jpg);
+    background-image: url(../Images/Citrouille.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #e{
-    background-image: url(Tomate.jpg);
+    background-image: url(../Images/Tomate.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #f{
-    background-image: url(Haricots\ Vert.jpg);
+    background-image: url(../Images/HaricotsVert.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #g{
-    background-image: url(Aubergine.jpg);
+    background-image: url(../Images/Aubergine.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #h{
-    background-image: url(Epinard.jpg);
+    background-image: url(../Images/Epinard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #i{
-    background-image: url(Chou.jpg);
+    background-image: url(../Images/Chou.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .Footer{
     height: 300px;
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr;
     background-color: rgb(56, 56, 56);
     border-top:5px solid white ;
 }
@@ -210,4 +211,21 @@ p{
     margin: 10px;
     margin-left: 90px;
     height: 100%;
+}
+.Footer-Middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Footer-Middle h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.Footer-Middle input{
+    width: 75%;
+    height: 50%;
+    vertical-align: top;
+    padding-bottom: 100px;
+    padding-left: 15px;
 }

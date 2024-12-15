@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .Arrière-Plan{
-    background-image: url(carotte.jpg);
+    background-image: url(../Images/mais.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -48,7 +48,6 @@ header{
     border: 0px solid black;
     border-bottom: 3px solid white;
 }
-
 .Body{
     width: 75%;
     margin: auto;
@@ -58,85 +57,68 @@ header{
     align-items: center;
     flex-direction: column;
 }
-
-.Top-Body-1{
-    font-size: 120px;
-    color: white;
-    font-weight: 500;
+.Middle-Body{
+    width: 65%;
+    height: 80%;
+    border: 2.5px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
 }
-p{
+.Middle-Body h1{
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-.Boutton{
-    margin-top: 80px;
-    font-size: 40px;
-    border: 5px solid green;
-    color: green;
-    background-color: white;
+.Middle-Body-Inside{
+    width: 65%;
+    height: 50%;
+    border: 2.5px solid white;
     border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.Middle-Body{
-    min-height: 700px;
-    background-color: black;
+    backdrop-filter: blur(10px);
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     gap: 15px;
-    padding-bottom: 75px;
 }
-.Middle-Left-Body{
-    width: 75%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 0px;
+.card img{
+    width: 100%;
+    border-radius: 20px;
 }
-.Middle-Right-Body{
-    width: 75%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-h1{
+.card p{
     color: white;
-    font-size: 40px;
-    margin: 30px;
+    text-align: center;
 }
-.Img-1{
-    width: 500px;
+.Left input{
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
- 
-.Footer{
-    height: 300px;
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    background-color: rgb(56, 56, 56);
-    border-top:5px solid white ;
-}
-.Footer-Left{
+.Right{
+    padding-top: 10px;
     display: flex;
+    color: white;
     justify-content: center;
-    flex-direction: column;
 }
 .Footer-Middle{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+
 }
-.Footer-Right{
-}
-.Footer-Left a{
+.Footer-Middle h1{
     color: white;
-    font-size: 25px;
-    margin: 10px;
-    margin-left: 90px;
+    margin-bottom: 20px;
+}
+.Footer-Middle input{
+    width: 75%;
+    height: 50%;
+    vertical-align: top;
+    padding-bottom: 100px;
+    padding-left: 15px;
 }

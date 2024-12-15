@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .Arrière-Plan{
-    background-image: url(Camion_fruits_et_légumes.jpg);
+    background-image: url(../Images/carotte.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -49,93 +49,77 @@ header{
     border-bottom: 3px solid white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-h1{
-    color: white;
-    font-size: 100px;
-    margin: 30px;
-    margin-top: 10px;
-    text-align: center;
-}
-
 .Body{
     width: 75%;
     margin: auto;
-    height: 650px;
+    height: 800px;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#salut h1{
+.Top-Body-1{
+    font-size: 120px;
     color: white;
-    font-size: 50px;
-    margin: 30px;
-    margin-top: 10px;
-    text-align: center;
+    font-weight: 500;
 }
 p{
     color: white;
     text-align: center;
     font-size: 30px;
-    padding: 10px;
+}
+.Boutton{
+    margin-top: 80px;
+    font-size: 40px;
+    border: 5px solid green;
+    color: green;
+    background-color: white;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .Middle-Body{
+    min-height: 700px;
     background-color: black;
-    height: 100%;
-    padding: 20px;
-}
-.Top-Middle-Body{
-    padding: 15px;
-    background-color: lightgray;
-    border-radius: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding-bottom: 75px;
 }
-.Bottom-Body{
+.Middle-Left-Body{
+    width: 75%;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
 }
-table{
-    margin-top: 20px;
+.Middle-Right-Body{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-th{
+h1{
     color: white;
-    border: 2px solid white;
-    padding: 10px;
-    font-size: 30px;
-    font-weight: 600;
-
+    font-size: 40px;
+    margin: 30px;
 }
-.ville{
-    font-size: 25px;
-    font-weight: 300;
+.Img-1{
+    width: 500px;
 }
-td{
-    color: white;
-    border: 2px solid white;
-    padding: 10px;
-    text-align: center;
-}
+ 
 .Footer{
-    height: 100%;
+    height: 300px;
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 2fr;
     background-color: rgb(56, 56, 56);
-    border-top:3px solid white ;
+    border-top:5px solid white ;
 }
 .Footer-Left{
     display: flex;
@@ -154,4 +138,20 @@ td{
     margin: 10px;
     margin-left: 90px;
 }
-
+.Footer-Middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Footer-Middle h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.Footer-Middle input{
+    width: 75%;
+    height: 50%;
+    vertical-align: top;
+    padding-bottom: 100px;
+    padding-left: 15px;
+}
